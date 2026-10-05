@@ -25,10 +25,15 @@ Electronics and power-distribution design for a 3D-printed 12-degree-of-freedom 
 
 ## Repository Structure
 
-```
-hardware/altium/    Altium project — schematic,  schematic library
-docs/               Block diagram & schematics, load calculation,BOM,
-images/             Block diagram, Original 3D Design images 
+```            
+Quadruped-Robot-12DOF/
+├── README.md
+├── .gitignore
+├── hardware/       Altium project — schematic,  schematic library
+│   └── altium/      
+├── docs/           Block diagram & schematics, load calculation,BOM,
+└── images/         Block diagram, Original 3D Design images 
+
 ```
 
 ## Hardware Design
