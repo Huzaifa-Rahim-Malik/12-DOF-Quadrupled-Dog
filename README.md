@@ -2,11 +2,11 @@
 
 Electronics and power-distribution design for a 3D-printed 12-degree-of-freedom quadruped robot (6 servos driving the front legs, 6 driving the back legs), controlled by a Raspberry Pi 4B.
 
-![3D_Dog](images/3d_Design.jpeg)
+![3D_Dog](images/3D_design1.png)
 
 **Mechanical Description:** 
-- 3D Material: ABS
-- Dimension:
+- 3D Material: ABS and PLA Material
+- Dimension: (306 x 204 x 180)mm [L x W x H]
 
 ## System Overview
 
