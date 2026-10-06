@@ -18,8 +18,8 @@ Electronics and power-distribution design for a 3D-printed 12-degree-of-freedom 
   - Buck 3 — 5V @ 3.5A for the Raspberry Pi 4 (with a 3.3V rail for logic)
 - **Cooling:** A small DC fan provides dedicated cooling for the robot’s electronics.
 - **System Power:** An 11.1 V, 5200 mAh LiPo battery powers the system for reliable and stable operation.
-- **Load calculation:** Worst-case current draw was modeled for two candidate servo options (MG996R ~11kg·cm vs DS3218MG ~20kg·cm) across idle, typical gait, and all-six-stalled scenarios, to size the buck converters and battery draw (peak ≈ 16–17A reflected at the battery). Full working is in `docs/Load_Calculation.docx`
-- **BOM:** The complete BOM is available at `docs/BOM_Quad_dog.xlsx`.
+- **Load calculation:** Worst-case current draw was modeled for two candidate servo options (MG996R ~11kg·cm vs DS3218MG ~20kg·cm) across idle, typical gait, and all-six-stalled scenarios, to size the buck converters and battery draw (peak ≈ 16–17A reflected at the battery). Full working is in [`docs/Load_Calculation.docx`](docs/Load_Calculation.docx)
+- **BOM:** The complete BOM is available at [`docs/BOM_Quad_dog.xlsx`](docs/BOM_Quad_dog.xlsx).
 
 ![Block diagram](images/Block_Diagram.png)
 
@@ -37,7 +37,7 @@ Quadruped-Robot-12DOF/
 ```
 
 ## Hardware Design
-The schematic of 3D printed dog were designed in Altium Designer (`hardware/altium/`) and complete hardware is available at `docs/Hardware_Wiring.xlsx`:
+The schematic of 3D printed dog were designed in Altium Designer [`hardware/altium/`](hardware/altium/) and complete hardware is available at [`docs/Hardware_Wiring.xlsx`](docs/Hardware_Wiring.xlsx):
 - `Block Diagram.SchDoc` — system-level power and signal architecture (power distribution, servo rails, controller, Pi)
 - `Schematic.SchDoc` — detailed circuit schematic
 - `Schlib2.SchLib` — custom schematic symbol library used in the design
@@ -48,7 +48,7 @@ The gait implementation was done by another team member
 ![3D_Dog_Walk](images/Walk.gif)
 
 ## Quadrupled Dog Images
-The complete pictures of assembled quadrupled dog is available at: (`images`)
+The complete pictures of assembled quadrupled dog is available at: [`images`](images)
 
 ![Right](images/Left.jpeg)
 
