@@ -43,7 +43,6 @@ The robot is a four-legged platform with three actuated joints per leg (hip, thi
 Worst-case current draw was modeled across idle, typical gait, and all-six-servo-stalled scenarios for both candidate servo options, to size the buck converters and confirm battery draw margin. Full working is in [`docs/Load_Calculation.docx`](docs/Load_Calculation.docx).
 
 ## Hardware Design
-
 ### Mechanical
 The chassis is a compact 3D-printed frame in ABS and PLA, sized 306 × 204 × 180 mm, housing the Raspberry Pi, servo controller, and power electronics centrally, with each leg's three servos mounted at the hip, thigh, and shin joints to drive the stance/swing gait cycle. ABS was used where impact resistance mattered most at the leg/joint mounts, with PLA for lower-load structural parts.
 
@@ -60,6 +59,7 @@ The schematic of 3D printed dog were designed in Altium Designer [`hardware/alti
 - `Schematic.SchDoc` — detailed circuit schematic
 - `Schlib2.SchLib` — custom schematic symbol library used in the design
 
+![Powered_on](images/Powered_on.jpeg)
 ## Repository Structure
 
 ```            
@@ -75,8 +75,6 @@ Quadruped-Robot-12DOF/
 
 ## Quadrupled Dog Images
 The complete pictures of assembled quadrupled dog is available at: [`images`](images)
-
-![Right](images/Left.jpeg)
 
 ![Top](images/Top.jpeg)
 
