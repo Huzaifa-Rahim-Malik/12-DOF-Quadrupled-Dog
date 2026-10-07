@@ -54,5 +54,8 @@ The complete pictures of assembled quadrupled dog is available at: [`images`](im
 
 ![Top](images/Top.jpeg)
 ## Author
-
-Muhammad Huzaifa Rahim Malik — Designed the electronic architecture of a 3D-printed quadruped robot, including embedded control, power management, sensor integration, and communication systems.
+This project is by the following team members
+- Dr.Muhammad Ahmad Kamran (Team Lead), AITeC Islamabad
+- Muhammad Huzaifa Rahim Malik (Electronics Design), AITeC Islamabad
+- Muhammad Mohsin Razaqi (Mechanical Design), AITeC Islamabad 
+- Muhammad Awais Khan (Algorithm Design), AITeC Islamabad
