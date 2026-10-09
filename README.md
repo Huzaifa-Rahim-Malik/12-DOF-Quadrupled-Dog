@@ -2,7 +2,7 @@
 
 A 3D-printed, 12-degree-of-freedom quadruped robot built as a legged-locomotion platform, with custom electronics for actuation and power distribution. It integrates a Raspberry Pi 4B, a dedicated I2C servo controller, and a multi-rail buck-converter power system sized against worst-case servo load.
 
-![3D_Dog](images/3D_design1.png)
+![3D_Dog](images/Simulation.png)
 
 **Features:**
 - 12-DOF quadruped platform (4 legs × 3 joints: hip, thigh, shin)
